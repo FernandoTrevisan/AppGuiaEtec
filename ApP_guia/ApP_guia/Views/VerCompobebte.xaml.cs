@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
+using ApP_guia.Models;
+
 namespace ApP_guia.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
@@ -14,7 +17,10 @@ namespace ApP_guia.Views
     {
         public VerCompobebte()
         {
+         
             InitializeComponent();
+
+            this.BindingContext = c; 
         }
     }
 }

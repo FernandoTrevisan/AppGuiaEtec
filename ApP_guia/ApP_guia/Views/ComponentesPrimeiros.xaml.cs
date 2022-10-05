@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using ApP_guia.Models;
 
 namespace ApP_guia.Views
 {
@@ -173,5 +174,7 @@ namespace ApP_guia.Views
             {
                 await DisplayAlert("Ops!", ex.Message, "OK");
             }
+
         }
+    }
 }
