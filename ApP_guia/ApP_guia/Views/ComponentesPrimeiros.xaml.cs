@@ -117,6 +117,7 @@ namespace ApP_guia.Views
 
         }
 
+        //editado
         private async void Button_Clicked_5(object sender, EventArgs e)
         {
             try
